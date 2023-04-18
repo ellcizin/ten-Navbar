@@ -1,0 +1,124 @@
+body{
+  margin: 0;
+}
+.pic{
+  height: 100vh;
+  background:black;
+}
+.header{
+  background: rgba(38, 23, 18,0.9);
+  position: relative;
+}
+.contener{
+  width: 80%;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow: hidden;
+}
+.logo-area, .nav-area{
+  float: left;
+}
+.logo-area{
+  width: 20%;
+}
+.logo-area h1 {
+  color: #9E7040;
+  font-size: 50px;
+  margin:8px 0;
+  font-style: italic;
+  text-shadow: 5px 5px 10px #6C4D2C;
+}
+.nav-area{
+  width: 80%;
+  overflow: hidden;
+}
+.nav-area .box{
+  float: right;
+}
+.nav-area .box ul{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.nav-area .box ul li{
+  float: left;
+  list-style-type: none;
+  margin-right: 2px;
+}
+.nav-area .box ul li a{
+  text-decoration: none;
+  color: #AD8256;
+  font-size: 18px;
+  padding: 26px 40px;
+  display: block;
+  transition: 1s;
+  border-radius: 0 0px 20px 20px;
+  border-bottom: 1px solid #cccccc66;
+  text-shadow: 5px 5px 10px #6C4D2C;
+}
+.nav-area .li1 .box1 a,
+.nav-area .li2 .box2 a,
+.nav-area .li3 .box3 a,
+.nav-area .li4 .box4 a,
+.nav-area .li5 .box5 a{
+  padding: 10px 20px;
+  font-size: 13px;
+  border-bottom: 1px solid #cccccc66;
+  border-radius: 0 0px 5px 5px;
+  color: #AD8256;
+}
+.nav-area .box ul li a:hover{
+  background: rgba(88, 75, 82,0.5);
+}
+.nav-area .li1 .box1 a:hover,
+.nav-area .li2 .box2 a:hover,
+.nav-area .li3 .box3 a:hover,
+.nav-area .li4 .box4 a:hover,
+.nav-area .li5 .box5 a:hover{
+  background: black;
+}
+.box1, .box2, .box3,
+.box4, .box5{
+  transform: scale(0);
+  position: absolute;
+  padding: 0px 8px 8px 8px;
+  background: rgb(59, 45, 41);
+  border-radius: 0 0px 5px 5px;
+  z-index: 9;
+  transition:all 2s;
+  width: 150px;
+}
+.box .li1:hover .box1,
+.box .li2:hover .box2,
+.box .li3:hover .box3,
+.box .li4:hover .box4,
+.box .li5:hover .box5{
+  transform: scale(1);
+
+}
+
+.sim{
+  width: 100%;
+  height: 550px;
+  position: relative;
+}
+.main{
+  width: 42%;
+  height: 250px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.main h1{
+  font-size: 80px;
+  color: #9E7040;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  transition: 0.5s;
+}
+.main h1:hover{
+  text-shadow: 5px 5px 10px #6C4D2C;
+}
